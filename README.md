@@ -1,10 +1,10 @@
 mountain-rehub
 ==============
 
-Aggregatore di recensione. Un progetto per imparare.
+Aggregatore di recensioni. Un progetto per imparare.
 
 ## Installazione
--------------
+
 
 Per installare l'ambiente:
 
@@ -14,11 +14,11 @@ Per installare l'ambiente:
     $ source env/bin/activate
     
 
-Una volta siamo nel ambiente, per installare le dipendeze, basta fare:
+Una volta che siamo nell'ambiente, per installare le dipendeze, basta fare:
 
     $ pip install requirements.txt
 
-E per esseguire:
+E per eseguire:
 
     $ python run.py
 
