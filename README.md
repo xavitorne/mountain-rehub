@@ -26,7 +26,9 @@ E per eseguire:
 Per iniziare con il database, bisogna creare un user "rehub" e password "rehub", già che nel file config.py usa questo user per il database. 
 
 Dopo per creare le tables dentro il db:
+
     $ python db_create.py
     $ python db_migrate.py
+    
 
 
