@@ -17,6 +17,3 @@ class Report(db.Model):
     id = db.Column(db.Integer, primary_key = True)
     kind = db.Column(db.Integer)
     title = db.Column(db.String(300))
-
-
-
