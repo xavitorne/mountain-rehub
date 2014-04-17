@@ -2,10 +2,10 @@ import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 # if you have postgres use this uri:
-# SQLALCHEMY_DATABASE_URI = "postgresql://rehub:rehub@localhost/rehub"
+SQLALCHEMY_DATABASE_URI = "postgresql://rehub:rehub@localhost/rehub"
 
 # if you want to use sqlite, use this one:
-SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'rehub.db')
+# SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'rehub.db')
 
 SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
 
